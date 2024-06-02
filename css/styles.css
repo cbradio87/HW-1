@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:black;
+	color:white;
+}
+
+
+
+nav a { /*links within "nav" container */
+	padding:15px;
+	padding-bottom:4px;
+	font-size: 1.8em;
+	text-decoration: none; /*removes underline */
+	color: white;	
+	/*by default, links are blue */
+}
+
+nav a:hover { /*pseudo class*/
+	border-bottom: 2px purple solid;
+	font-size: 2em;
+	transition: .9s; 
+	/* transition effect */
+}
+
+nav a strong {
+	color: aqua;
+}
+#main {
+  width: 850px;
+  height: 200px;
+	margin-left: auto;
+	margin-right:auto;
+
+
+}
+
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-soze: 4em;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+header, main, nav, footer {
+	text-align: center;
+}
+
+#image {
+	width : 400px;
+	padding-left: 250px;
+}
+
+a {
+	font-size:1.5em;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	border-bottom: 2px purple solid;	
+	font-size: 1.8em;
+	transistion: .6s;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	color: aquamarine;
+}
